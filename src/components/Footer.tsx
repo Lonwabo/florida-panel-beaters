@@ -130,6 +130,23 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {BUSINESS.legalName}. All rights reserved.
           </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="#popia"
+              onClick={(e) => e.preventDefault()}
+              className="hover:text-sky-400 transition-colors"
+            >
+              POPIA
+            </a>
+            <span className="text-zinc-700">|</span>
+            <a
+              href="#paia"
+              onClick={(e) => e.preventDefault()}
+              className="hover:text-sky-400 transition-colors"
+            >
+              PAIA
+            </a>
+          </div>
           <p>
             30A Hull Street, Florida, Roodepoort, 1709 • Gauteng, South Africa
           </p>
